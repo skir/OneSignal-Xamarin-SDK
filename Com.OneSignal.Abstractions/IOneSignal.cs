@@ -7,6 +7,7 @@ namespace Com.OneSignal.Abstractions
    {
       XamarinBuilder StartInit(string appID);
 
+      void setAppId(string appID);
       void SetLogLevel(LOG_LEVEL logLevel, LOG_LEVEL visualLevel);
       void RegisterForPushNotifications();
       void SendTag(string tagName, string tagValue);
@@ -14,13 +15,13 @@ namespace Com.OneSignal.Abstractions
       void GetTags(TagsReceived tagsReceivedDelegate);
       void DeleteTag(string key);
       void DeleteTags(IList<string> keys);
-      void IdsAvailable(IdsAvailableCallback idsAvailableCallback);
-      void SetSubscription(bool enable);
+      //void IdsAvailable(IdsAvailableCallback idsAvailableCallback);
+      //void SetSubscription(bool enable);
       void PostNotification(Dictionary<string, object> data, OnPostNotificationSuccess success, OnPostNotificationFailure failure);
       void PostNotification(Dictionary<string, object> data);
 
       [Obsolete("SyncHashedEmail has been deprecated. Please use setEmail() instead.")]
-      void SyncHashedEmail(string email);
+      //void SyncHashedEmail(string email);
       void PromptLocation();
       void SetEmail(string email, string emailAuthToken, OnSetEmailSuccess success, OnSetEmailFailure failure);
       void SetEmail(string email, string emailAuthToken);
@@ -40,6 +41,8 @@ namespace Com.OneSignal.Abstractions
       void SetExternalUserId(string externalId, string authHashToken, OnExternalUserIdUpdate success, OnExternalUserIdUpdateFailure failure);
       void RemoveExternalUserId();
       void RemoveExternalUserId(OnExternalUserIdUpdate completion);
+
+      void setLanguage(string language);
 
       void AddTrigger(string key, object value);
       void AddTriggers(Dictionary<string, object> triggers);

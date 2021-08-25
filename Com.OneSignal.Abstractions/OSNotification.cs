@@ -1,25 +1,25 @@
 ﻿using System;
-namespace Com.OneSignal.Abstractions
-{
-    public class OSNotification
-    {
-        public enum DisplayType
-        {
-            // Notification shown in the notification shade.
-            Notification,
+using System.Collections.Generic;
 
-            // Notification shown as an in app alert.
-            InAppAlert,
+namespace Com.OneSignal.Abstractions {
+   public class OSNotification {
+      public enum DisplayType {
+         // Notification shown in the notification shade.
+         Notification,
 
-            // Notification was silent and not displayed.
-            None
-        }
+         // Notification shown as an in app alert.
+         InAppAlert,
 
-        public bool isAppInFocus;
-        public bool shown;
-        public bool silentNotification;
-        public int androidNotificationId;
-        public DisplayType displayType;
-        public OSNotificationPayload payload;
-    }
+         // Notification was silent and not displayed.
+         None
+      }
+
+      public bool isAppInFocus;
+      public bool shown;
+      public bool silentNotification;
+      public int androidNotificationId;
+      public List<OSNotification> groupedNotifications;
+      public DisplayType displayType;
+      public OSNotificationPayload payload;
+   }
 }

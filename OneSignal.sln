@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.OneSignal.iOS", "Com.On
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.OneSignal.Android", "Com.OneSignal.Android\Com.OneSignal.Android.csproj", "{FB0C2961-BAFE-4346-B279-3B3941614DCD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.OneSignal", "Com.OneSignal\Com.OneSignal.csproj", "{D0FE8BC3-4B5F-45CC-B9F2-1795CB136BB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.OneSignal", "Com.OneSignal\Com.OneSignal.csproj", "{D0FE8BC3-4B5F-45CC-B9F2-1795CB136BB0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Com.OneSignal.Abstractions", "Com.OneSignal.Abstractions\Com.OneSignal.Abstractions.csproj", "{4AAD1A77-175C-46BF-9C64-B3042A20CCFA}"
 EndProject

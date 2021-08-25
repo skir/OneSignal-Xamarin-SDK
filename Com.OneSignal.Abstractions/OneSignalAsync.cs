@@ -37,12 +37,12 @@ namespace Com.OneSignal.Abstractions
          return tcs.Task;
       }
 
-      public static Task<PlayerIds> IdsAvailableAsync(this IOneSignal @this)
-      {
-         var tcs = new TaskCompletionSource<PlayerIds>();
-         @this.IdsAvailable((playerId, pushToken) => tcs.SetResult(new PlayerIds(playerId, pushToken)));
-         return tcs.Task;
-      }
+      //public static Task<PlayerIds> IdsAvailableAsync(this IOneSignal @this)
+      //{
+      //   var tcs = new TaskCompletionSource<PlayerIds>();
+      //   @this.IdsAvailable((playerId, pushToken) => tcs.SetResult(new PlayerIds(playerId, pushToken)));
+      //   return tcs.Task;
+      //}
 
       public static Task<OneSignalResponse> PostNotificationAsync(this IOneSignal @this, Dictionary<string, object> data)
       {

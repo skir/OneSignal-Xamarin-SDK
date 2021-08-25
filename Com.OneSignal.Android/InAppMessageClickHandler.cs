@@ -2,7 +2,7 @@
 
 namespace Com.OneSignal
 {
-   public class InAppMessageClickHandler : Java.Lang.Object, Android.OneSignal.IInAppMessageClickHandler
+   public class InAppMessageClickHandler : Java.Lang.Object, Android.OneSignal.IOSInAppMessageClickHandler
     {
         public void InAppMessageClicked(Android.OSInAppMessageAction action)
         {
@@ -14,8 +14,8 @@ namespace Com.OneSignal
             OSInAppMessageAction inAppMessageAction = new OSInAppMessageAction();
             inAppMessageAction.clickName = action.ClickName;
             inAppMessageAction.clickUrl = action.ClickUrl;
-            inAppMessageAction.firstClick = action.FirstClick;
-            inAppMessageAction.closesMessage = action.ClosesMessage;
+            inAppMessageAction.firstClick = action.IsFirstClick;
+            inAppMessageAction.closesMessage = action.DoesCloseMessage();
             return inAppMessageAction;
         }
     }

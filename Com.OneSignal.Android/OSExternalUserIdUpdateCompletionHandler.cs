@@ -13,7 +13,7 @@ namespace Com.OneSignal
 			_completion = completion;
 		}
 
-      public void OnComplete(JSONObject jsonResults)
+      public void OnSuccess(JSONObject jsonResults)
       {
          if (_completion == null)
                return;
@@ -21,6 +21,16 @@ namespace Com.OneSignal
          Dictionary<string, object> results = new Dictionary<string, object>();
          if (jsonResults != null)
             results = Json.Deserialize(jsonResults.ToString()) as Dictionary<string, object>;
+         _completion?.Invoke(results);
+      }
+
+      public void OnFailure(Android.OneSignal.ExternalIdError error) {
+         if (_completion == null)
+            return;
+
+         Dictionary<string, object> results = new Dictionary<string, object>();
+         if (error != null)
+            results = new Dictionary<string, object>() { { "message", error.Message } };
          _completion?.Invoke(results);
       }
 	}

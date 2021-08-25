@@ -1,85 +1,83 @@
-﻿using System;
-using System.Collections.Generic;
-using Com.OneSignal.Abstractions;
+﻿//using System;
+//using System.Collections.Generic;
+//using Com.OneSignal.Abstractions;
 
-namespace Com.OneSignal
-{
-    public class NotificationOpenedHandler : Java.Lang.Object, Android.OneSignal.INotificationOpenedHandler
-    {
-        public void NotificationOpened(Android.OSNotificationOpenResult result)
-        {
-            (OneSignal.Current as OneSignalImplementation).OnPushNotificationOpened(OSNotificationOpenedResultToNative(result));
-        }
+//namespace Com.OneSignal
+//{
+//    public class NotificationOpenedHandler : Java.Lang.Object, Android.OneSignal.IOSNotificationOpenedHandler
+//    {
+//        public void NotificationOpened(Android.OSNotificationOpenedResult result)
+//        {
+//            (OneSignal.Current as OneSignalImplementation).OnPushNotificationOpened(OSNotificationOpenedResultToNative(result));
 
-        public static OSNotificationOpenedResult OSNotificationOpenedResultToNative(Android.OSNotificationOpenResult result)
-        {
+//           Android.OneSignal
+//        }
 
-            OSNotificationAction.ActionType actionType = OSNotificationAction.ActionType.Opened;
-            if (result.Action.Type == Android.OSNotificationAction.ActionType.Opened)
-                actionType = OSNotificationAction.ActionType.Opened;
-            else
-                actionType = OSNotificationAction.ActionType.ActionTaken;
+//        public static OSNotificationOpenedResult OSNotificationOpenedResultToNative(Android.OSNotificationOpenedResult result)
+//        {
 
-            var openresult = new OSNotificationOpenedResult();
-            openresult.action = new OSNotificationAction();
-            Android.OSNotificationAction action = result.Action;
-            openresult.action.actionID = action.ActionID;
-            openresult.action.type = actionType;
+//            OSNotificationAction.ActionType actionType = OSNotificationAction.ActionType.Opened;
 
-            openresult.notification = OSNotificationToNative(result.Notification);
+//            if (result.Action.Type == Android.OSNotificationAction.ActionType.Opened)
+//                actionType = OSNotificationAction.ActionType.Opened;
+//            else
+//                actionType = OSNotificationAction.ActionType.ActionTaken;
 
-            return openresult;
-        }
+//            var openresult = new OSNotificationOpenedResult();
+//            openresult.action = new OSNotificationAction();
+//            Android.OSNotificationAction action = result.Action;
+//            openresult.action.actionID = action.ActionId;
+//            openresult.action.type = actionType;
 
-        public static OSNotification OSNotificationToNative(Android.OSNotification notif)
-        {
-            var notification = new OSNotification();
-            notification.shown = notif.Shown;
-            notification.androidNotificationId = notif.AndroidNotificationId;
-            notif.GroupedNotifications = notif.GroupedNotifications;
-            notif.IsAppInFocus = notif.IsAppInFocus;
+//            openresult = OSNotificationToNative(result);
 
-            notification.payload = new OSNotificationPayload();
+//            return openresult;
+//        }
+
+//      public static OSNotification OSNotificationToNative(OSNotification notif) {
+//         var notification = new OSNotification();
+//         notification.shown = notif.shown;
+//         notification.androidNotificationId = notif.androidNotificationId;
+//         notification.groupedNotifications = notif.groupedNotifications;
+//         notification.isAppInFocus = notif.isAppInFocus;
+
+//         notification.payload = new OSNotificationPayload();
 
 
-            notification.payload.actionButtons = new List<Dictionary<string, object>>();
-            if (notif.Payload.ActionButtons != null)
-            {
-                foreach (Android.OSNotificationPayload.ActionButton button in notif.Payload.ActionButtons)
-                {
-                    var d = new Dictionary<string, object>();
-                    d.Add(button.Id, button.Text);
-                    notification.payload.actionButtons.Add(d);
-                }
-            }
+//         notification.payload.actionButtons = new List<Dictionary<string, object>>();
+//         if (notif.payload.actionButtons != null) {
+//            foreach (Dictionary<string, object> button in notif.payload.actionButtons) {
+//               var d = new Dictionary<string, object>();
+//               d = button;
+//               notification.payload.actionButtons.Add(d);
+//            }
+//         }
 
-            notification.payload.additionalData = new Dictionary<string, object>();
-            if (notif.Payload.AdditionalData != null)
-            {
-                var iterator = notif.Payload.AdditionalData.Keys();
-                while (iterator.HasNext)
-                {
-                    var key = (string)iterator.Next();
-                    notification.payload.additionalData.Add(key, notif.Payload.AdditionalData.Get(key));
-                }
-            }
+//         notification.payload.additionalData = new Dictionary<string, object>();
+//         if (notif.payload.additionalData != null) {
+//            var iterator = notif.payload.additionalData.Keys;
+//            while (iterator.HasNext) {
+//               var key = (string)iterator.Next();
+//               notification.payload.additionalData.Add(key, notif.payload.additionalData.GetValueOrDefault(key));
+//            }
+//         }
 
-            notification.payload.body = notif.Payload.Body;
-            notification.payload.launchURL = notif.Payload.LaunchURL;
-            notification.payload.notificationID = notif.Payload.NotificationID;
-            notification.payload.sound = notif.Payload.Sound;
-            notification.payload.title = notif.Payload.Title;
-            notification.payload.bigPicture = notif.Payload.BigPicture;
-            notification.payload.fromProjectNumber = notif.Payload.FromProjectNumber;
-            notification.payload.groupMessage = notif.Payload.GroupKey;
-            notification.payload.groupMessage = notif.Payload.GroupMessage;
-            notification.payload.largeIcon = notif.Payload.LargeIcon;
-            notification.payload.ledColor = notif.Payload.LedColor;
-            notification.payload.lockScreenVisibility = notif.Payload.LockScreenVisibility;
-            notification.payload.smallIcon = notif.Payload.SmallIcon;
-            notification.payload.smallIconAccentColor = notif.Payload.SmallIconAccentColor;
+//         notification.payload.body = notif.payload.body;
+//         notification.payload.launchURL = notif.payload.launchURL;
+//         notification.payload.notificationID = notif.payload.notificationID;
+//         notification.payload.sound = notif.payload.sound;
+//         notification.payload.title = notif.payload.title;
+//         notification.payload.bigPicture = notif.payload.bigPicture;
+//         notification.payload.fromProjectNumber = notif.payload.fromProjectNumber;
+//         notification.payload.groupMessage = notif.payload.groupKey;
+//         notification.payload.groupMessage = notif.payload.groupMessage;
+//         notification.payload.largeIcon = notif.payload.largeIcon;
+//         notification.payload.ledColor = notif.payload.ledColor;
+//         notification.payload.lockScreenVisibility = notif.payload.lockScreenVisibility;
+//         notification.payload.smallIcon = notif.payload.smallIcon;
+//         notification.payload.smallIconAccentColor = notif.payload.smallIconAccentColor;
 
-            return notification;
-        }
-    }
-}
+//         return notification;
+//      }
+//   }
+//}

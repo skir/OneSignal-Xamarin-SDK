@@ -7,29 +7,46 @@ namespace Com.OneSignal
 {
    public class OneSignalImplementation : OneSignalShared, IOneSignal
    {
-      public void Init(string appid, OSInFocusDisplayOption displayOption, LOG_LEVEL logLevel, LOG_LEVEL visualLevel)
-      {
-         SetLogLevel(logLevel, visualLevel);
+      //public void Init(string appid, OSInFocusDisplayOption displayOption, LOG_LEVEL logLevel, LOG_LEVEL visualLevel)
+      //{
+      //   SetLogLevel(logLevel, visualLevel);
 
-         //Convert OneSignal.OSInFocusDisplayOptions to Android.OneSignal.OSInFocusDisplayOption
-         Android.OneSignal.OSInFocusDisplayOption option = Android.OneSignal.OSInFocusDisplayOption.InAppAlert;
-         switch (displayOption)
-         {
-            case OSInFocusDisplayOption.None: option = Android.OneSignal.OSInFocusDisplayOption.None; break;
-            case OSInFocusDisplayOption.Notification: option = Android.OneSignal.OSInFocusDisplayOption.Notification; break;
-            case OSInFocusDisplayOption.InAppAlert: option = Android.OneSignal.OSInFocusDisplayOption.InAppAlert; break;
-         }
+      //   //Convert OneSignal.OSInFocusDisplayOptions to Android.OneSignal.OSInFocusDisplayOption
+      //   Android.OneSignal.OSInFocusDisplayOption option = Android.OneSignal.OSInFocusDisplayOption.InAppAlert;
+      //   switch (displayOption)
+      //   {
+      //      case OSInFocusDisplayOption.None: option = Android.OneSignal.OSInFocusDisplayOption.None; break;
+      //      case OSInFocusDisplayOption.Notification: option = Android.OneSignal.OSInFocusDisplayOption.Notification; break;
+      //      case OSInFocusDisplayOption.InAppAlert: option = Android.OneSignal.OSInFocusDisplayOption.InAppAlert; break;
+      //   }
 
-         Android.OneSignal.SdkType = "xam";
-         Android.OneSignal.CurrentOrNewInitBuilder.SetInAppMessageClickHandler(new InAppMessageClickHandler());
-         Android.OneSignal.Init(Application.Context, "", appid, new NotificationOpenedHandler(), new NotificationReceivedHandler());
-         Android.OneSignal.SetInFocusDisplaying(option);
+      //   Android.OneSignal.SdkType = "xam";
+      //   Android.OneSignal.CurrentOrNewInitBuilder.SetInAppMessageClickHandler(new InAppMessageClickHandler());
+      //   Android.OneSignal.Init(Application.Context, "", appid, new NotificationOpenedHandler(), new NotificationReceivedHandler());
+      //   Android.OneSignal.SetInFocusDisplaying(option);
+      //}
+
+      //public override void StartInit() {
+
+      //}
+
+      public override void InitWithContext() {
+         Android.OneSignal.InitWithContext(Application.Context);
       }
 
-      // Init - Only required method you call to setup OneSignal to receive push notifications.
-      public override void InitPlatform()
-      {
-         Init(builder.mAppId, builder.displayOption, logLevel, visualLogLevel);
+      //// Init - Only required method you call to setup OneSignal to receive push notifications.
+      //public override void InitPlatform()
+      //{
+      //   Init(builder.mAppId, builder.displayOption, logLevel, visualLogLevel);
+      //}
+
+      //public void Init() {
+      //   SetInFocusDisplaying(Android.OneSignal.dis);
+      //}
+
+      public override void setAppId(string appID) {
+         InitWithContext();
+         Android.OneSignal.SetAppId(appID);
       }
 
       public override void SendTag(string tagName, string tagValue)
@@ -59,45 +76,45 @@ namespace Com.OneSignal
          Android.OneSignal.DeleteTags(Json.Serialize(keys));
       }
 
-      public override void IdsAvailable(IdsAvailableCallback idsAvailable)
-      {
-         if (idsAvailable == null)
-            throw new ArgumentNullException(nameof(idsAvailable));
-         Android.OneSignal.IdsAvailable(new IdsAvailableHandler(idsAvailable));
-      }
+      //public override void IdsAvailable(IdsAvailableCallback idsAvailable)
+      //{
+      //   if (idsAvailable == null)
+      //      throw new ArgumentNullException(nameof(idsAvailable));
+      //   Android.OneSignal.IdsAvailable(new IdsAvailableHandler(idsAvailable));
+      //}
 
       public override void RegisterForPushNotifications() { } // Doesn't apply to Android as the Native SDK always registers with GCM.
 
-      public void EnableVibrate(bool enable)
-      {
-         Android.OneSignal.EnableVibrate(enable);
-      }
+      //public void EnableVibrate(bool enable)
+      //{
+      //   Android.OneSignal.EnableVibrate(enable);
+      //}
 
-      public void EnableSound(bool enable)
-      {
-         Android.OneSignal.EnableSound(enable);
-      }
+      //public void EnableSound(bool enable)
+      //{
+      //   Android.OneSignal.EnableSound(enable);
+      //}
 
-      public void SetInFocusDisplaying(OSInFocusDisplayOption display)
-      {
-         Android.OneSignal.SetInFocusDisplaying((int)display);
-      }
+      //public void SetInFocusDisplaying(OSInFocusDisplayOption display)
+      //{
+      //   Android.OneSignal.SetInFocusDisplaying((int)display);
+      //}
 
-      public override void SetSubscription(bool enable)
-      {
-         Android.OneSignal.SetSubscription(enable);
-      }
+      //public override void SetSubscription(bool enable)
+      //{
+      //   Android.OneSignal.SetSubscription(enable);
+      //}
 
       public override void PostNotification(Dictionary<string, object> data, OnPostNotificationSuccess success, OnPostNotificationFailure failure)
       {
          Android.OneSignal.PostNotification(Json.Serialize(data), new PostNotificationResponseHandler(success, failure));
       }
 
-      [Obsolete("SyncHashedEmail has been deprecated. Please use SetEmail() instead.")]
-      public override void SyncHashedEmail(string email)
-      {
-         Android.OneSignal.SyncHashedEmail(email);
-      }
+      //[Obsolete("SyncHashedEmail has been deprecated. Please use SetEmail() instead.")]
+      //public override void SyncHashedEmail(string email)
+      //{
+      //   Android.OneSignal.SyncHashedEmail(email);
+      //}
 
       public override void PromptLocation()
       {
@@ -106,7 +123,7 @@ namespace Com.OneSignal
 
       public override void UnsubscribeWhenNotificationsAreDisabled(bool set)
       {
-         Android.OneSignal.CurrentOrNewInitBuilder.UnsubscribeWhenNotificationsAreDisabled(set);
+         Android.OneSignal.UnsubscribeWhenNotificationsAreDisabled(set);
       }
 
 		public override void ClearAndroidOneSignalNotifications()
@@ -153,7 +170,7 @@ namespace Com.OneSignal
 
       public override void SetLocationShared(bool shared)
       {
-         Android.OneSignal.SetLocationShared(shared);
+         Android.OneSignal.SetRequiresUserPrivacyConsent (shared);
       }
       
       public override void SetExternalUserId(string externalId) 
@@ -179,6 +196,10 @@ namespace Com.OneSignal
          Android.OneSignal.RemoveExternalUserId(new OSExternalUserIdUpdateCompletionHandler(completion));
       }
 
+      public override void setLanguage(string language) {
+         Android.OneSignal.SetLanguage(language);
+      }
+
       public override void AddTrigger(string key, object value)
       {
          Dictionary<string, object> trigger = new Dictionary<string, object>();
@@ -188,7 +209,12 @@ namespace Com.OneSignal
 
       public override void AddTriggers(Dictionary<string, object> triggers)
       {
-         Android.OneSignal.AddTriggersFromJsonString(Json.Serialize(triggers));
+         Dictionary<string, Java.Lang.Object> jTriggers = new Dictionary<string, Java.Lang.Object>();
+         foreach(var trigger in triggers) {
+            jTriggers[trigger.Key] = (Java.Lang.Object) trigger.Value;
+         }
+
+         Android.OneSignal.AddTriggers(jTriggers);
       }
 
       public override void RemoveTriggerForKey(string key)

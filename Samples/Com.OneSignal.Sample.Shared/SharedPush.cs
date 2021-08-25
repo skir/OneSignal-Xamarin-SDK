@@ -12,38 +12,36 @@ namespace Com.OneSignal.Sample.Shared
       // Called on iOS and Android to initialize OneSignal
       public static void Initialize()
       {
-         OneSignal.Current.SetLogLevel(LOG_LEVEL.VERBOSE, LOG_LEVEL.NONE);
+         //OneSignal.Current.SetLogLevel(LOG_LEVEL.VERBOSE, LOG_LEVEL.NONE);
 
          //if you want to require user consent, change this to true
-         SharedPush.SetRequiresConsent(false);
+         SetRequiresConsent(false);
+
+         //OneSignal.Current.StartInit("b2f7f966-d8cc-11e4-bed1-df8f05be55ba");
 
          OneSignal.Current.StartInit("b2f7f966-d8cc-11e4-bed1-df8f05be55ba").Settings(new Dictionary<string, bool>() {
             { IOSSettings.kOSSettingsKeyAutoPrompt, false },
             { IOSSettings.kOSSettingsKeyInAppLaunchURL, true } })
            .InFocusDisplaying(OSInFocusDisplayOption.Notification)
            .UnsubscribeWhenNotificationsAreDisabled(true)
-           .HandleNotificationOpened((result) =>
-            {
-               Debug.WriteLine("HandleNotificationOpened: {0}", result.notification.payload.body);
-            })
-           .HandleNotificationReceived((notification) =>
-           {
+           .HandleNotificationOpened((result) => {
+              Debug.WriteLine("HandleNotificationOpened: {0}", result.notification.payload.body);
+           })
+           .HandleNotificationReceived((notification) => {
               Debug.WriteLine("HandleNotificationReceived: {0}", notification.payload.body);
            })
-           .HandleInAppMessageClicked((action) =>
-           {
+           .HandleInAppMessageClicked((action) => {
               // Example IAM click handling for IAM elements
               Debug.WriteLine("HandledInAppMessageClicked: {0}", action.clickName);
            })
            .EndInit();
 
-         OneSignal.Current.IdsAvailable((playerID, pushToken) =>
-         {
-            Debug.WriteLine("OneSignal.Current.IdsAvailable:D playerID: {0}, pushToken: {1}", playerID, pushToken);
-         });
+         //   OneSignal.Current.IdsAvailable((playerID, pushToken) => {
+         //      Debug.WriteLine("OneSignal.Current.IdsAvailable:D playerID: {0}, pushToken: {1}", playerID, pushToken);
+         //   });
 
-         OneSignalInAppMessagingDemo();
-         OneSignalOutcomeEventDemo();
+            OneSignalInAppMessagingDemo();
+            OneSignalOutcomeEventDemo();
       }
 
       private static void OneSignalSetExternalUSerId(Dictionary<string , object> results)

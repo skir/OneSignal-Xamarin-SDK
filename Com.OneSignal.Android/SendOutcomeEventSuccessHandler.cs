@@ -12,20 +12,20 @@ namespace Com.OneSignal
 
 	   public SendOutcomeEventSuccessHandler(SendOutcomeEventSuccess sendOutcomeEventSuccess) => _sendOutcomeEventSuccess = sendOutcomeEventSuccess;
 
-      public void OnSuccess(OutcomeEvent outcome)
+      public void OnSuccess(Android.OSOutcomeEvent outcome)
       {
-         OSOutcomeEvent outcomeEvent = OSSendOutcomeEventSuccessToNative(outcome);
+         Abstractions.OSOutcomeEvent outcomeEvent = OSSendOutcomeEventSuccessToNative(outcome);
          _sendOutcomeEventSuccess(outcomeEvent);
       }
 
-      private static OSOutcomeEvent OSSendOutcomeEventSuccessToNative(OutcomeEvent outcome)
+      private static Abstractions.OSOutcomeEvent OSSendOutcomeEventSuccessToNative(Android.OSOutcomeEvent outcome)
       {
          if (outcome == null)
-            return new OSOutcomeEvent();
+            return new Abstractions.OSOutcomeEvent();
 
          Dictionary<string, object> outcomeObject = Json.Deserialize(outcome.ToJSONObject().ToString()) as Dictionary<string, object>;
 
-         OSOutcomeEvent outcomeEvent = new OSOutcomeEvent(outcomeObject);
+         Abstractions.OSOutcomeEvent outcomeEvent = new Abstractions.OSOutcomeEvent(outcomeObject);
 
          return outcomeEvent;
       }

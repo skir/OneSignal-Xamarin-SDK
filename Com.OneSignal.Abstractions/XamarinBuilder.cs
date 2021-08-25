@@ -65,7 +65,7 @@ namespace Com.OneSignal.Abstractions
 
       public void EndInit()
       {
-         mOneSignalShared.InitPlatform();
+         mOneSignalShared.setAppId(mAppId);
       }
    }
 }
