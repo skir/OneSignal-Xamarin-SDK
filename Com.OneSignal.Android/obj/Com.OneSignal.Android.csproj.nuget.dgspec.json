@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/Com.OneSignal.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/Com.OneSignal.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/Com.OneSignal.Android.csproj",
+        "projectName": "Com.OneSignal.Android",
+        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/Com.OneSignal.Android.csproj",
+        "packagesPath": "/Users/tanay/.nuget/packages/",
+        "outputPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tanay/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj": {
+                "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj"
+              },
+              "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/OneSignal.Android.Binding.csproj": {
+                "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/OneSignal.Android.Binding.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.3.1.3, )"
+            },
+            "Xamarin.AndroidX.Browser": {
+              "target": "Package",
+              "version": "[1.3.0.8, )"
+            },
+            "Xamarin.AndroidX.CardView": {
+              "target": "Package",
+              "version": "[1.0.0.11, )"
+            },
+            "Xamarin.AndroidX.Concurrent.Futures": {
+              "target": "Package",
+              "version": "[1.1.0.5, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "target": "Package",
+              "version": "[1.6.0.3, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0.10, )"
+            },
+            "Xamarin.AndroidX.Work.Runtime": {
+              "target": "Package",
+              "version": "[2.6.0.2, )"
+            },
+            "Xamarin.Firebase.Messaging": {
+              "target": "Package",
+              "version": "[122.0.0.1, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[117.6.0.1, )"
+            },
+            "Xamarin.GooglePlayServices.Location": {
+              "target": "Package",
+              "version": "[118.0.0.1, )"
+            },
+            "Xamarin.Jetbrains.Annotations": {
+              "target": "Package",
+              "version": "[22.0.0.2, )"
+            },
+            "Xamarin.Kotlin.StdLib": {
+              "target": "Package",
+              "version": "[1.5.31.2, )"
+            },
+            "Xamarin.Kotlin.StdLib.Common": {
+              "target": "Package",
+              "version": "[1.5.31.2, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj",
+        "projectName": "Com.OneSignal.Core",
+        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj"
+      },
+      "frameworks": {
+        "portable45-net45+win8+wpa81": {}
+      }
+    },
+    "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/OneSignal.Android.Binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/OneSignal.Android.Binding.csproj",
+        "projectName": "OneSignal.Android.Binding",
+        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/OneSignal.Android.Binding.csproj",
+        "packagesPath": "/Users/tanay/.nuget/packages/",
+        "outputPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tanay/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {}
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

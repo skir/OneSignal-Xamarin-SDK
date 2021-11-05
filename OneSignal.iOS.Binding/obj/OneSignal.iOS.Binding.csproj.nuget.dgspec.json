@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/OneSignal.iOS.Binding.csproj": {}
+  },
+  "projects": {
+    "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/OneSignal.iOS.Binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/OneSignal.iOS.Binding.csproj",
+        "projectName": "OneSignal.iOS.Binding",
+        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/OneSignal.iOS.Binding.csproj",
+        "packagesPath": "/Users/tanay/.nuget/packages/",
+        "outputPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/tanay/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+alpha;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/anim/onesignal_fade_in.xml
+alpha;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/anim/onesignal_fade_out.xml
+ImageView;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/layout/onesignal_bgimage_notif_layout.xml
+LinearLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/layout/onesignal_bgimage_notif_layout.xml
+RelativeLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/layout/onesignal_bgimage_notif_layout.xml
+resources;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/values/values.xml
+resources;obj/Release/res/values/strings.xml
+string;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/values/values.xml
+string;obj/Release/res/values/strings.xml
+TextView;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Android/obj/Release/lp/0/jl/res/layout/onesignal_bgimage_notif_layout.xml

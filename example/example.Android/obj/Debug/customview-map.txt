@@ -1,0 +1,50 @@
+@string/appbar_scrolling_view_behavior;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/rootlayout.xml
+adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/icon.xml
+adaptive-icon;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
+alpha;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/enterfromleft.xml
+alpha;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/exittoleft.xml
+androidx.appcompat.widget.Toolbar;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/rootlayout.xml
+androidx.appcompat.widget.Toolbar;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/shellcontent.xml
+androidx.appcompat.widget.Toolbar;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/shellcontent.xml
+attr;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/attrs.xml
+background;obj/Debug/res/mipmap-anydpi-v26/icon.xml
+background;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
+cache-path;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+color;obj/Debug/res/values/colors.xml
+com.google.android.material.appbar.AppBarLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/rootlayout.xml
+com.google.android.material.tabs.TabLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/tabbar.xml
+declare-styleable;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/attrs.xml
+external-cache-path;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+external-path;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+foreground;obj/Debug/res/mipmap-anydpi-v26/icon.xml
+foreground;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
+FrameLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/bottomtablayout.xml
+item;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/styles.xml
+LinearLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/bottomtablayout.xml
+paths;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/60/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+resources;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/attrs.xml
+resources;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/strings.xml
+resources;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/styles.xml
+resources;obj/Debug/res/values/colors.xml
+resources;obj/Debug/res/values/styles.xml
+set;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/enterfromleft.xml
+set;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/enterfromright.xml
+set;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/exittoleft.xml
+set;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/exittoright.xml
+string;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/strings.xml
+style;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/values/styles.xml
+style;obj/Debug/res/values/styles.xml
+translate;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/enterfromleft.xml
+translate;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/enterfromright.xml
+translate;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/exittoleft.xml
+translate;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/anim/exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/obj/Debug/lp/70/jl/res/layout/flyoutcontent.xml

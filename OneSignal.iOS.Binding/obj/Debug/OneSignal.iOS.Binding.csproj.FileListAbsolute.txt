@@ -1,0 +1,9 @@
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.resources.stamp
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.pdb
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/Debug/_ProcessedBundleResourcesPath.items
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/Debug/_ProcessedContentPath.items
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/Debug/OneSignal.iOS.Binding.csproj.CoreCompileInputs.cache
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/Debug/OneSignal.iOS.Binding.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/Debug/OneSignal.iOS.Binding.pdb
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/Debug/OneSignal.iOS.Binding.csproj.AssemblyReference.cache
