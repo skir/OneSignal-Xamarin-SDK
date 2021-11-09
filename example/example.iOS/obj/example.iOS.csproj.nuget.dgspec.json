@@ -8,7 +8,23 @@
       "restore": {
         "projectUniqueName": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj",
         "projectName": "Com.OneSignal.Core",
-        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj"
+        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj",
+        "packagesPath": "/Users/tanay/.nuget/packages/",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "/Users/tanay/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "portable45-net45+win8+wpa81": {
+            "projectReferences": {}
+          }
+        },
+        "packagesConfigPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/packages.config"
       },
       "frameworks": {
         "portable45-net45+win8+wpa81": {}
@@ -31,6 +47,8 @@
           "xamarinios10"
         ],
         "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +65,16 @@
         }
       },
       "frameworks": {
-        "xamarinios10": {}
+        "xamarinios10": {
+          "dependencies": {
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.5-dev.8, )"
+            }
+          }
+        }
       }
     },
     "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/example.iOS.csproj": {
@@ -67,6 +94,8 @@
           "xamarinios10"
         ],
         "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,6 +156,8 @@
           "netstandard2.0"
         ],
         "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -170,7 +201,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -191,6 +222,8 @@
           "xamarinios10"
         ],
         "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -200,7 +233,16 @@
         }
       },
       "frameworks": {
-        "xamarinios10": {}
+        "xamarinios10": {
+          "dependencies": {
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.5-dev.8, )"
+            }
+          }
+        }
       }
     }
   }

@@ -18,6 +18,15 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidUseAapt2>true</AndroidUseAapt2>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Com.OneSignal.Android</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>OneSignal, Inc.</Authors>
+    <Copyright>OneSignal, Inc.</Copyright>
+    <Owners>OneSignal, Inc.</Owners>
+    <Summary>OneSignal Android Library</Summary>
+    <Title>OneSignal Android</Title>
+    <Description>OneSignal Android Library</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -96,6 +105,11 @@
     </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.Concurrent.Futures">
       <Version>1.1.0.5</Version>
+    </PackageReference>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.5-dev.8</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

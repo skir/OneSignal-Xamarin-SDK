@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ljYJCSGxLZ/hcHfdOjg6xZ+9eSEstD6uHBTNlk2gGTy9823mxrVuTZ+wxcFUe1GHIrqq4FSFznnTk7e7VI2Xwg==",
+  "dgSpecHash": "SgaSRM+bjVY21Lbmajt/IqXnMX1+ejDCewVbWCx57d4TfQc627M9zQ2dW0avpbu7NLKv1ebujlrS5Wd1b8J2GQ==",
   "success": true,
   "projectFilePath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.iOS/Com.OneSignal.iOS.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/tanay/.nuget/packages/nuget.build.packaging/0.2.5-dev.8/nuget.build.packaging.0.2.5-dev.8.nupkg.sha512"
+  ],
   "logs": []
 }

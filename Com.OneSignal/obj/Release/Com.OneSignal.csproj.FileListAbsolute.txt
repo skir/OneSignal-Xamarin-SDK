@@ -1,0 +1,6 @@
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal/bin/Release/Com.OneSignal.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal/bin/Release/Com.OneSignal.Core.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal/obj/Release/Com.OneSignal.csproj.AssemblyReference.cache
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal/obj/Release/Com.OneSignal.csproj.CoreCompileInputs.cache
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal/obj/Release/Com.OneSignal.csproj.CopyComplete
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal/obj/Release/Com.OneSignal.dll

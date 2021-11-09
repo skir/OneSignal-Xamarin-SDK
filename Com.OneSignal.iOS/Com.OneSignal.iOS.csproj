@@ -13,6 +13,15 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Com.OneSignal.iOS</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackageId>Com.OneSignal.iOS</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>OneSignal, Inc.</Authors>
+    <Copyright>OneSignal, Inc.</Copyright>
+    <Owners>OneSignal, Inc.</Owners>
+    <Summary>OneSignal iOS Library</Summary>
+    <Title>OneSignal iOS</Title>
+    <Description>OneSignal iOS Library</Description>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,6 +70,13 @@
       <Name>OneSignal.iOS.Binding</Name>
       <ReferenceSourceTarget>ProjectReference</ReferenceSourceTarget>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.5-dev.8</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

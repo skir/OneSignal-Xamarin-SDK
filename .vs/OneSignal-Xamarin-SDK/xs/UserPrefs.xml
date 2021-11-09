@@ -1,21 +1,21 @@
-﻿<Properties StartupConfiguration="{A3A32961-A7A2-46C4-8FE7-2AEA9B3BBA01}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="OneSignal.iOS.Binding/Properties/AssemblyInfo.cs">
+﻿<Properties StartupConfiguration="{1E610A28-2FA7-46AD-B7AE-96844269C7DA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="example/example.Android/MainActivity.cs">
     <Files>
       <File FileName="OneSignal.iOS.Binding/ApiDefinition.cs" Line="25" Column="63" />
       <File FileName="OneSignal.iOS.Binding/Structs.cs" />
-      <File FileName="Com.OneSignal.Android/OneSignalAndroid.cs" />
-      <File FileName="Com.OneSignal.Android/OneSignalCallbacks.cs" />
-      <File FileName="Com.OneSignal.Android/OneSignalAndroidInit.cs" />
-      <File FileName="Com.OneSignal.iOS/OneSignaliOS.cs" />
+      <File FileName="Com.OneSignal.Android/OneSignalAndroid.cs" Line="47" Column="54" />
+      <File FileName="Com.OneSignal.Android/OneSignalCallbacks.cs" Line="59" Column="40" />
+      <File FileName="Com.OneSignal.Android/OneSignalAndroidInit.cs" Line="1" Column="1" />
+      <File FileName="Com.OneSignal.iOS/OneSignaliOS.cs" Line="31" Column="13" />
       <File FileName="Com.OneSignal.iOS/OneSignalCallbacks.cs" />
       <File FileName="Com.OneSignal.iOS/OneSignaliOSInit.cs" />
-      <File FileName="Com.OneSignal.Core/OneSignalSDK.cs" />
-      <File FileName="example/example.Android/MainActivity.cs" />
+      <File FileName="Com.OneSignal.Core/OneSignalSDK.cs" Line="24" Column="1" />
+      <File FileName="example/example.Android/MainActivity.cs" Line="28" Column="39" />
       <File FileName="example/example.iOS/AppDelegate.cs" />
-      <File FileName="Com.OneSignal/OneSignal.cs" />
+      <File FileName="Com.OneSignal/OneSignal.cs" Line="31" Column="1" />
       <File FileName="Com.OneSignal.Core/Utilities/Later.cs" />
       <File FileName="Com.OneSignal.iOS/Properties/AssemblyInfo.cs" />
-      <File FileName="OneSignal.iOS.Binding/Properties/AssemblyInfo.cs" Line="35" Column="1" />
+      <File FileName="OneSignal.iOS.Binding/Properties/AssemblyInfo.cs" />
       <File FileName="example/example.iOS/Properties/AssemblyInfo.cs" />
       <File FileName="OneSignal.iOS.Binding/OneSignal.framework/OneSignal.linkwith.cs" />
       <File FileName="Com.OneSignal.Core/Properties/AssemblyInfo.cs" />
@@ -29,15 +29,7 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OneSignal-Xamarin-SDK" expanded="True">
-            <Node name="App" expanded="True">
-              <Node name="example.Android" expanded="True" />
-              <Node name="example.iOS" expanded="True" />
-            </Node>
-            <Node name="OneSignal.iOS.Binding" expanded="True">
-              <Node name="Properties" expanded="True">
-                <Node name="AssemblyInfo.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="OneSignal.iOS.Binding" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -47,7 +39,7 @@
   <MonoDevelop.Ide.ItemProperties.App.example.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C5E0CB60-1C2C-46D3-A5C9-410B5419535F" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.App.example.Android PreferredExecutionTarget="Android.Pixel_3a_API_30_x86" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

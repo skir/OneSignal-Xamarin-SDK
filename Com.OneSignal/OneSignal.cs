@@ -6,6 +6,9 @@ namespace Com.OneSignal {
         public const string Version = "3.0.0";
         static readonly Lazy<OneSignalSDK> sdk = new Lazy<OneSignalSDK>(CreateOneSignal);
 
+        /// <summary>
+        /// The default static instance of the OneSignal Unity SDK
+        /// </summary>
         public static OneSignalSDK Default {
             get => sdk.Value;
             internal set {

@@ -1,0 +1,9 @@
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/bin/Release/OneSignal.Android.Binding.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/bin/Release/OneSignal.Android.Binding.pdb
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/Release/__AndroidLibraryProjects__.zip
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/Release/MonoAndroid,Version=v11.0.AssemblyAttributes.cs
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/Release/OneSignal.Android.Binding.csproj.AssemblyReference.cache
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/Release/stamp/_BuildLibraryImportsCache.stamp
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/Release/OneSignal.Android.Binding.csproj.CoreCompileInputs.cache
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/Release/OneSignal.Android.Binding.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.Android.Binding/obj/Release/OneSignal.Android.Binding.pdb

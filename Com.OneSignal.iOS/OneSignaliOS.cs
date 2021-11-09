@@ -28,10 +28,10 @@ namespace Com.OneSignal.iOS {
         public override void Initialize(string appId) {
             OneSignalNative.AppId = appId;
         }
-
-        public override void InitWithContext() {
-            throw new NotImplementedException();
-        }
+            
+        //public override void InitWithContext() {
+        //    throw new NotImplementedException();
+        //}
 
         //public override bool UserProvidedPrivacyConsent() {
         //    throw new NotImplementedException();

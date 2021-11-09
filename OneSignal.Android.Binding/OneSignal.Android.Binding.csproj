@@ -18,6 +18,15 @@
     <AndroidClassParser>class-parse</AndroidClassParser>
     <AndroidCodegenTarget>XAJavaInterop1</AndroidCodegenTarget>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>OneSignal.Android.Binding</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>OneSignal, Inc.</Authors>
+    <Copyright>OneSignal, Inc.</Copyright>
+    <Owners>OneSignal, Inc.</Owners>
+    <Summary>OneSignal Android Binding</Summary>
+    <Title>OneSignal Android Binding</Title>
+    <Description>OneSignal Android Bindings</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,6 +64,13 @@
   </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\onesignal-original.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.5-dev.8</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

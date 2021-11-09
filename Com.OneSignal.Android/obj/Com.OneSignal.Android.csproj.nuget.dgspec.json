@@ -21,6 +21,8 @@
           "monoandroid11.0"
         ],
         "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +41,12 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.5-dev.8, )"
+            },
             "Xamarin.AndroidX.AppCompat": {
               "target": "Package",
               "version": "[1.3.1.3, )"
@@ -99,7 +107,23 @@
       "restore": {
         "projectUniqueName": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj",
         "projectName": "Com.OneSignal.Core",
-        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj"
+        "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/Com.OneSignal.Core.csproj",
+        "packagesPath": "/Users/tanay/.nuget/packages/",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "/Users/tanay/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "portable45-net45+win8+wpa81": {
+            "projectReferences": {}
+          }
+        },
+        "packagesConfigPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/packages.config"
       },
       "frameworks": {
         "portable45-net45+win8+wpa81": {}
@@ -122,6 +146,8 @@
           "monoandroid11.0"
         ],
         "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
+          "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -131,7 +157,16 @@
         }
       },
       "frameworks": {
-        "monoandroid11.0": {}
+        "monoandroid11.0": {
+          "dependencies": {
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.5-dev.8, )"
+            }
+          }
+        }
       },
       "runtimes": {
         "win": {

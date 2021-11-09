@@ -21,6 +21,7 @@
           "xamarinios10"
         ],
         "sources": {
+          "/Users/tanay/Desktop/Xamarin SDK": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -30,7 +31,16 @@
         }
       },
       "frameworks": {
-        "xamarinios10": {}
+        "xamarinios10": {
+          "dependencies": {
+            "NuGet.Build.Packaging": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.2.5-dev.8, )"
+            }
+          }
+        }
       }
     }
   }

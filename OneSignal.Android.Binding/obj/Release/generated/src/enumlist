@@ -1,0 +1,9 @@
+com.onesignal.influence.domain.OSInfluenceChannel:Com.Onesignal.Influence.Domain:OSInfluenceChannel
+com.onesignal.influence.domain.OSInfluenceType:Com.Onesignal.Influence.Domain:OSInfluenceType
+com.onesignal.OneSignal$AppEntryAction:Com.Onesignal:OneSignal.AppEntryAction
+com.onesignal.OneSignal$EmailErrorType:Com.Onesignal:OneSignal.EmailErrorType
+com.onesignal.OneSignal$ExternalIdErrorType:Com.Onesignal:OneSignal.ExternalIdErrorType
+com.onesignal.OneSignal$LOG_LEVEL:Com.Onesignal:OneSignal.LOG_LEVEL
+com.onesignal.OneSignal$SMSErrorType:Com.Onesignal:OneSignal.SMSErrorType
+com.onesignal.OSInAppMessageAction$OSInAppMessageActionUrlType:Com.Onesignal:OSInAppMessageAction.OSInAppMessageActionUrlType
+com.onesignal.OSNotificationAction$ActionType:Com.Onesignal:OSNotificationAction.ActionType

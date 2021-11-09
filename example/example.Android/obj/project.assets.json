@@ -4642,6 +4642,8 @@
         "monoandroid11.0"
       ],
       "sources": {
+        "/Users/tanay/Desktop/Xamarin SDK": {},
+        "/Users/tanay/Desktop/Xamarin SDK/NugetPkg": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

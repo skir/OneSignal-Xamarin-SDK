@@ -18,5 +18,6 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xamarin.build.download/0.10.0/buildTransitive/Xamarin.Build.Download.props" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download/0.10.0/buildTransitive/Xamarin.Build.Download.props')" />
     <Import Project="$(NuGetPackageRoot)xamarin.androidx.migration/1.0.8/buildTransitive/monoandroid90/Xamarin.AndroidX.Migration.props" Condition="Exists('$(NuGetPackageRoot)xamarin.androidx.migration/1.0.8/buildTransitive/monoandroid90/Xamarin.AndroidX.Migration.props')" />
+    <Import Project="$(NuGetPackageRoot)nuget.build.packaging/0.2.5-dev.8/build/NuGet.Build.Packaging.props" Condition="Exists('$(NuGetPackageRoot)nuget.build.packaging/0.2.5-dev.8/build/NuGet.Build.Packaging.props')" />
   </ImportGroup>
 </Project>

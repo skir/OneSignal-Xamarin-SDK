@@ -37,15 +37,12 @@ namespace Com.OneSignal.Android {
             set => OneSignalNative.SetRequiresUserPrivacyConsent(value);
         }
 
-
         public override void Initialize(string appId) {
-            Console.WriteLine("Android INIT");
-            //TODO: Get Context for InitWithContext
             InitWithContext();
             OneSignalNative.SetAppId(appId);
         }
 
-        public override void InitWithContext() {
+        public void InitWithContext() {
             Context context = Application.Context; 
             OneSignalNative.InitWithContext(context);
         }
