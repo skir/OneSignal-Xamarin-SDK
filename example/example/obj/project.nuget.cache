@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/zGI80XkYX6tbGdjDdCnPTVPUeEuDJ98M5O8quUCwnJOhIvLAvdZ29UI7o4fiCX1d52UP8Yvq2O2HSL+WZVuzA==",
+  "dgSpecHash": "KhrBoLl5Tp9/E2zWBVpzeWX7/hqb+mnEQ59WZhbVi1dFMNL++lr7jBcvWu9W+Rju2VWZeljuBr/cXBeIvgG+VA==",
   "success": true,
   "projectFilePath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/example.csproj",
   "expectedPackageFiles": [
     "/Users/tanay/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/tanay/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/tanay/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/tanay/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
-    "/Users/tanay/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/tanay/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

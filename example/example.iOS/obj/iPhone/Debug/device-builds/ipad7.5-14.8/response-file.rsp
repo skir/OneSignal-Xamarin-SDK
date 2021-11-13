@@ -5,11 +5,10 @@
 "--cache=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-14.8/mtouch-cache"
 "--root-assembly=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhone/Debug/example.iOS.exe"
 --sdkroot=/Applications/Xcode.app/Contents/Developer
---targetver=8.0
+--targetver=9.0
 "--dev=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhone/Debug/device-builds/ipad7.5-14.8/example.iOS.app"
 --executable=example.iOS
 --interpreter=-all
---linksdkonly
 --sdk=15.0
 --aot-options=-O=-float32
 --abi=arm64
@@ -19,6 +18,7 @@
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.iOS/bin/Debug/Com.OneSignal.iOS.dll"
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/bin/Debug/netstandard2.0/example.dll"
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+"--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.dll"
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -212,3 +212,4 @@
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/bin/Debug/Com.OneSignal.Core.dll"
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.iOS/bin/Debug/Com.OneSignal.iOS.dll"
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/bin/Debug/netstandard2.0/example.dll"
+"--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.dll"

@@ -2,6 +2,7 @@
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/bin/Debug/netstandard2.0/example.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/bin/Debug/netstandard2.0/ref/example.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/bin/Debug/netstandard2.0/example.pdb
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/example.csproj.AssemblyReference.cache
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/example.GeneratedMSBuildEditorConfig.editorconfig
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
@@ -12,4 +13,3 @@
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/example.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/ref/example.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/example.pdb
-/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/obj/Debug/netstandard2.0/example.csproj.AssemblyReference.cache

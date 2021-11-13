@@ -46,11 +46,9 @@
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/Com.OneSignal.Core.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/Com.OneSignal.iOS.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/example.dll
-/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/OneSignal.iOS.Binding.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/example.pdb
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/Com.OneSignal.Core.pdb
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/Com.OneSignal.iOS.pdb
-/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/OneSignal.iOS.Binding.pdb
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/actool/_PartialAppManifest.items
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/actool/_BundleResourceWithLogicalName.items
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/actool/_ProcessedImageAssetsPath.items
@@ -67,3 +65,5 @@
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/example.iOS.csproj.CopyComplete
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/example.iOS.exe
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/example.iOS.pdb
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/OneSignal.iOS.Binding.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/OneSignal.iOS.Binding.pdb

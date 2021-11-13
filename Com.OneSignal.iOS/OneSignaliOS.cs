@@ -6,6 +6,7 @@ using Com.OneSignal.iOS;
 using Com.OneSignal.Core;
 
 using Foundation;
+using OneSignalNative = Com.OneSignal.iOS.OneSignal;
 
 
 namespace Com.OneSignal.iOS {
@@ -26,7 +27,13 @@ namespace Com.OneSignal.iOS {
         public override event StateChangeDelegate<SMSSubscriptionState> SMSSubscriptionStateChanged;
 
         public override void Initialize(string appId) {
+            Console.WriteLine("App Initialization");
+            InitWithLaunchOptions();
             OneSignalNative.AppId = appId;
+        }
+
+        public void InitWithLaunchOptions() {
+            OneSignalNative.InitWithLaunchOptions(null);
         }
             
         //public override void InitWithContext() {

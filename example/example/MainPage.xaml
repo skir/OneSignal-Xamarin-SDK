@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="example.MainPage">
 
-    <StackLayout>
+    <!--<StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
             <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
@@ -19,6 +19,49 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+    </StackLayout>-->
+
+    <!--<ScrollView FlowDirection="MatchParent">
+    </ScrollView>-->
+
+    <StackLayout>
+        <Image
+            Source="onesignal_square"
+            WidthRequest="100"
+            HeightRequest="100"
+            AnchorY="0.05"/>
+
+        <Label
+            Text="APP INITIALIZATION"
+            Padding="10, 0, 10, 0"
+            FontSize="16"/>
+
+        <StackLayout Orientation="Horizontal"
+                     Padding="10, 0, 10, 0">
+
+            <Button Text="Initialize"
+                    Command="{Binding DeleteCharCommand}"
+                    WidthRequest="150" />
+
+            <Editor Text="App Id"
+                    BindingContext="{Binding Initialize}"
+                    WidthRequest="250" />
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                     Padding="10, 0, 10, 0">
+
+            <Button Text="Initialize"
+                    Command="{Binding DeleteCharCommand}"
+                    WidthRequest="150" />
+
+            <Editor Text="App Id"
+                    BindingContext="{Binding Initialize}"
+                    WidthRequest="250" />
+
+        </StackLayout>
+
     </StackLayout>
 
 </ContentPage>

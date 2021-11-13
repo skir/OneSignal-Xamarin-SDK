@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Wqu3wM91kZcDvzhUKy4PVKBNJXt9UIXLNlSFovFQhOyz2GpM3INjfF6+unQThNrcfkwEDD+jFyMAwiWjf+XueA==",
+  "dgSpecHash": "DvhebvSIR3fMYjioH3laYOIsO6D+dUV9Dg6sbt65R3wlToMNVmk+P3bMS5uPq8lcDuU0/KgT1MfX/531Mi2RjA==",
   "success": true,
   "projectFilePath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/example.iOS.csproj",
   "expectedPackageFiles": [
     "/Users/tanay/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.essentials/1.7.0/xamarin.essentials.1.7.0.nupkg.sha512",
-    "/Users/tanay/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "/Users/tanay/.nuget/packages/xamarin.forms/5.0.0.2196/xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/com.onesignal.core/1.0.0/com.onesignal.core.1.0.0.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/com.onesignal.ios/1.0.0/com.onesignal.ios.1.0.0.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/onesignal.ios.binding/1.0.0/onesignal.ios.binding.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

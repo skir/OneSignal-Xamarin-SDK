@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Dir1QPb6HrYW7HBqrynQ1w+w23zEmfnpFcJDMJuzUdJDKrXZYd7NAfby4nJrISRRjhy1njxZI7RybWLOQ7Qnrw==",
+  "dgSpecHash": "Lw1h7QusFQSokoOcxy6mXKaZhbePnpftZ7/HcK7LD5Ckscn3OQD8uPpY04L8Yfz0CZybc09A6seNx53YQbXYzA==",
   "success": true,
   "projectFilePath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.Android/example.Android.csproj",
   "expectedPackageFiles": [
@@ -41,11 +41,15 @@
     "/Users/tanay/.nuget/packages/xamarin.androidx.loader/1.1.0.10/xamarin.androidx.loader.1.1.0.10.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.localbroadcastmanager/1.0.0.10/xamarin.androidx.localbroadcastmanager.1.0.0.10.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.media/1.4.2.2/xamarin.androidx.media.1.4.2.2.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/xamarin.androidx.media2.common/1.2.0.2/xamarin.androidx.media2.common.1.2.0.2.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/xamarin.androidx.media2.session/1.2.0.2/xamarin.androidx.media2.session.1.2.0.2.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/xamarin.androidx.media2.widget/1.2.0.2/xamarin.androidx.media2.widget.1.2.0.2.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.migration/1.0.8/xamarin.androidx.migration.1.0.8.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.multidex/2.0.1.5/xamarin.androidx.multidex.2.0.1.5.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.navigation.common/2.3.5.1/xamarin.androidx.navigation.common.2.3.5.1.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.navigation.runtime/2.3.5.1/xamarin.androidx.navigation.runtime.2.3.5.1.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.navigation.ui/2.3.5.1/xamarin.androidx.navigation.ui.2.3.5.1.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/xamarin.androidx.palette/1.0.0.10/xamarin.androidx.palette.1.0.0.10.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.preference/1.1.1.9/xamarin.androidx.preference.1.1.1.9.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.print/1.0.0.10/xamarin.androidx.print.1.0.0.10.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.androidx.recyclerview/1.2.1.1/xamarin.androidx.recyclerview.1.2.1.1.nupkg.sha512",
@@ -91,7 +95,10 @@
     "/Users/tanay/.nuget/packages/xamarin.googleplayservices.tasks/117.2.1.1/xamarin.googleplayservices.tasks.117.2.1.1.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.jetbrains.annotations/22.0.0.2/xamarin.jetbrains.annotations.22.0.0.2.nupkg.sha512",
     "/Users/tanay/.nuget/packages/xamarin.kotlin.stdlib/1.5.31.2/xamarin.kotlin.stdlib.1.5.31.2.nupkg.sha512",
-    "/Users/tanay/.nuget/packages/xamarin.kotlin.stdlib.common/1.5.31.2/xamarin.kotlin.stdlib.common.1.5.31.2.nupkg.sha512"
+    "/Users/tanay/.nuget/packages/xamarin.kotlin.stdlib.common/1.5.31.2/xamarin.kotlin.stdlib.common.1.5.31.2.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/com.onesignal.android/1.0.0/com.onesignal.android.1.0.0.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/com.onesignal.core/1.0.0/com.onesignal.core.1.0.0.nupkg.sha512",
+    "/Users/tanay/.nuget/packages/onesignal.android.binding/1.0.0/onesignal.android.binding.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

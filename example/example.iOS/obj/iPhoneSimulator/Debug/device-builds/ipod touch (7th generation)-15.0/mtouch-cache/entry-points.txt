@@ -85,7 +85,7 @@ Function=NetSecurityNative_DeleteSecContext
 	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/mtouch-cache/1-Link/System.dll
 Function=xamarin_start_wwan
 	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/mtouch-cache/1-Link/System.dll
-ObjectiveCClass=OBJC_CLASS_$_OneSignalNative
+ObjectiveCClass=OBJC_CLASS_$_OneSignal
 	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
 ObjectiveCClass=OBJC_CLASS_$_OSDeviceState
 	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll

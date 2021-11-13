@@ -1,1 +1,1 @@
-[assembly: ObjCRuntime.LinkWith ("OneSignal.framework", SmartLink = true, ForceLoad = true, Frameworks = "SystemConfiguration")]
+[assembly: ObjCRuntime.LinkWith ("OneSignal.framework", ForceLoad = true, Frameworks = "SystemConfiguration UserNotifications WebKit CoreGraphics UIKit")]

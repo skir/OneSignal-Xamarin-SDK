@@ -137,7 +137,7 @@ namespace Com.Onesignal {
 			get {
 				if (id_getBundle == IntPtr.Zero)
 					id_getBundle = JNIEnv.GetMethodID (class_ref, "getBundle", "()Ljava/lang/Object;");
-				return (Java.Lang.Object) global::Java.Lang.Object.GetObject<global::Java.Lang.Object> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getBundle), JniHandleOwnership.TransferLocalRef);
+				return (global::Java.Lang.Object) global::Java.Lang.Object.GetObject<global::Java.Lang.Object> (JNIEnv.CallObjectMethod (((global::Java.Lang.Object) this).Handle, id_getBundle), JniHandleOwnership.TransferLocalRef);
 			}
 		}
 

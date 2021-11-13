@@ -7,7 +7,7 @@ namespace Com.OneSignal {
         static readonly Lazy<OneSignalSDK> sdk = new Lazy<OneSignalSDK>(CreateOneSignal);
 
         /// <summary>
-        /// The default static instance of the OneSignal Unity SDK
+        /// The default static instance of the OneSignal Xamarin SDK
         /// </summary>
         public static OneSignalSDK Default {
             get => sdk.Value;

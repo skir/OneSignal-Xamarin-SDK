@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="2659752099246305694" name="MediaControlView_audio_track_none_text">"Keine"</string>
+    <string msgid="4263103361854223806" name="MediaControlView_audio_track_number_text">"Track <ns1:g id="AUDIO_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="3309135445007366582" name="MediaControlView_audio_track_text">"Audiotrack"</string>
+    <string msgid="2029510260288453183" name="MediaControlView_playback_speed_normal">"Normal"</string>
+    <string msgid="1481072528142380025" name="MediaControlView_playback_speed_text">"Wiedergabegeschwindigkeit"</string>
+    <string msgid="3464220590351304587" name="MediaControlView_subtitle_off_text">"Aus"</string>
+    <string msgid="2268860463481696609" name="MediaControlView_subtitle_track_number_and_lang_text">"Spur <ns1:g id="TRACK_NUMBER">%1$d</ns1:g> – <ns1:g id="LANG">%2$s</ns1:g>"</string>
+    <string msgid="2241078077382492349" name="MediaControlView_subtitle_track_number_text">"Spur <ns1:g id="TRACK_NUMBER">%1$d</ns1:g>"</string>
+    <string msgid="6734584158942500617" name="MediaControlView_time_placeholder">"00:00:00"</string>
+    <string msgid="1540894858499118373" name="mcv2_back_button_desc">"Zurück"</string>
+    <string msgid="2380791179816122456" name="mcv2_cc_is_off">"Untertitel sind deaktiviert. Zum Einblenden klicken."</string>
+    <string msgid="5427119422911561783" name="mcv2_cc_is_on">"Untertitel sind aktiviert. Zum Ausblenden klicken."</string>
+    <string msgid="5940167897992933850" name="mcv2_error_dialog_button">"OK"</string>
+    <string msgid="611689280746097673" name="mcv2_ffwd_button_desc">"30 Sekunden vor"</string>
+    <string msgid="1609817079594941003" name="mcv2_full_screen_button_desc">"Vollbild"</string>
+    <string msgid="5393558204040775454" name="mcv2_music_artist_unknown_text">"Unbekannter Interpret"</string>
+    <string msgid="6037645626002038645" name="mcv2_music_title_unknown_text">"Unbekannter Musiktitel"</string>
+    <string msgid="1204572886248099893" name="mcv2_next_button_desc">"Nächstes Medium"</string>
+    <string msgid="2032814146738922144" name="mcv2_non_music_title_unknown_text">"Unbekannter Videotitel"</string>
+    <string msgid="2749567167276435888" name="mcv2_overflow_left_button_desc">"Zurück zur vorherigen Schaltflächenliste"</string>
+    <string msgid="7388732945289831383" name="mcv2_overflow_right_button_desc">"Weitere Schaltflächen zeigen"</string>
+    <string msgid="7391720675120766278" name="mcv2_pause_button_desc">"Pausieren"</string>
+    <string msgid="4881308324856085359" name="mcv2_play_button_desc">"Wiedergeben"</string>
+    <string msgid="6061787693725630293" name="mcv2_playback_error_text">"Das angeforderte Video konnte nicht wiedergegeben werden"</string>
+    <string msgid="3080315055670437389" name="mcv2_previous_button_desc">"Vorheriges Medium"</string>
+    <string msgid="3128622733570179596" name="mcv2_replay_button_desc">"Noch mal"</string>
+    <string msgid="578809901971186362" name="mcv2_rewind_button_desc">"10 Sekunden zurück"</string>
+    <string msgid="24915699029009384" name="mcv2_seek_bar_desc">"Wiedergabefortschritt"</string>
+    <string msgid="811917224044739656" name="mcv2_settings_button_desc">"Einstellungen"</string>
+</resources>

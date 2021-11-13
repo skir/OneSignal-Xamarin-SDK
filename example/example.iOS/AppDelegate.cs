@@ -25,8 +25,8 @@ namespace example.iOS {
             LoadApplication(new App());
 
             OneSignal.Default.Initialize("77e32082-ea27-42e3-a898-c72e141824ef");
-            OneSignal.Default.SetLanguage("fr");
-            OneSignal.Default.SetEmail("tanay@onesignal.com");
+            OneSignal.Default.SetLanguage("es");
+            OneSignal.Default.SetEmail("");
             OneSignal.Default.SetSMSNumber("1122334455");
 
             return base.FinishedLaunching(app, options);

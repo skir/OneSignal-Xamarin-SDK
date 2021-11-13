@@ -5,7 +5,7 @@
 "--cache=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/mtouch-cache"
 "--root-assembly=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/example.iOS.exe"
 --sdkroot=/Applications/Xcode.app/Contents/Developer
---targetver=8.0
+--targetver=9.0
 "--sim=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/bin/iPhoneSimulator/Debug/device-builds/ipod touch (7th generation)-15.0/example.iOS.app"
 --executable=example.iOS
 --sdk=15.0
@@ -17,6 +17,7 @@
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.iOS/bin/Debug/Com.OneSignal.iOS.dll"
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/bin/Debug/netstandard2.0/example.dll"
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+"--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.dll"
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 --reference=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -210,4 +211,4 @@
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.Core/bin/Debug/Com.OneSignal.Core.dll"
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.iOS/bin/Debug/Com.OneSignal.iOS.dll"
 "--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/bin/Debug/netstandard2.0/example.dll"
-"--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.iOS/bin/Debug/OneSignal.iOS.Binding.dll"
+"--reference=/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.dll"

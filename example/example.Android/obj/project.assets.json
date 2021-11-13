@@ -995,6 +995,92 @@
           "buildTransitive/monoandroid90/Xamarin.AndroidX.Media.targets": {}
         }
       },
+      "Xamarin.AndroidX.Media2.Common/1.2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.2.0.3",
+          "Xamarin.AndroidX.Collection": "1.1.0.10",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.5",
+          "Xamarin.AndroidX.Core": "1.6.0.3",
+          "Xamarin.AndroidX.Media": "1.4.2.2",
+          "Xamarin.AndroidX.VersionedParcelable": "1.1.1.10",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.4"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Media2.Common.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Media2.Common.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Media2.Common.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Media2.Session/1.2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Collection": "1.1.0.10",
+          "Xamarin.AndroidX.Concurrent.Futures": "1.1.0.5",
+          "Xamarin.AndroidX.Media2.Common": "1.2.0.2",
+          "Xamarin.Google.Guava.ListenableFuture": "1.0.0.4"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Media2.Session.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Media2.Session.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Media2.Session.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Media2.Widget/1.2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.AppCompat": "1.3.1.3",
+          "Xamarin.AndroidX.Media2.Session": "1.2.0.2",
+          "Xamarin.AndroidX.Palette": "1.0.0.10"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Media2.Widget.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Media2.Widget.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Media2.Widget.targets": {}
+        }
+      },
       "Xamarin.AndroidX.Migration/1.0.8": {
         "type": "package",
         "dependencies": {
@@ -1109,6 +1195,32 @@
         },
         "build": {
           "buildTransitive/monoandroid90/Xamarin.AndroidX.Navigation.UI.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Palette/1.0.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Core": "1.6.0.3",
+          "Xamarin.AndroidX.Legacy.Support.Core.Utils": "1.0.0.10"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android",
+          "System",
+          "System.Core",
+          "System.Numerics",
+          "System.Numerics.Vectors",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Palette.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Palette.dll": {}
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Palette.targets": {}
         }
       },
       "Xamarin.AndroidX.Preference/1.1.1.9": {
@@ -2363,8 +2475,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
           "bin/placeholder/example.dll": {}
@@ -3272,6 +3384,79 @@
         "xamarin.androidx.media.nuspec"
       ]
     },
+    "Xamarin.AndroidX.Media2.Common/1.2.0.2": {
+      "sha512": "vaE2ZEmuBaM3mwBzCZ+A7xHR/FKJsx4u7Z1McqHHdiz8+emribIlehJeQPueTaG61T9sBoY/aPIaw+l5f+q1ew==",
+      "type": "package",
+      "path": "xamarin.androidx.media2.common/1.2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.media2.media2-common.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Media2.Common.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Media2.Common.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Media2.Common.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Media2.Common.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Common.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Common.pdb",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Common.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Common.aar",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Common.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Common.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Common.xml",
+        "proguard/proguard.txt",
+        "xamarin.androidx.media2.common.1.2.0.2.nupkg.sha512",
+        "xamarin.androidx.media2.common.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Media2.Session/1.2.0.2": {
+      "sha512": "2UMFE2Fw8jwv8nExf8HvAiYmIH6GRwRGinBKMBUugFwtkbKzewE/AgzOGNAhzx3vE5NHc71i/qGyW4SBjVtp+g==",
+      "type": "package",
+      "path": "xamarin.androidx.media2.session/1.2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.media2.media2-session.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Media2.Session.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Media2.Session.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Media2.Session.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Media2.Session.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Session.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Session.pdb",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Session.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Session.aar",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Session.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Session.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Session.xml",
+        "xamarin.androidx.media2.session.1.2.0.2.nupkg.sha512",
+        "xamarin.androidx.media2.session.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Media2.Widget/1.2.0.2": {
+      "sha512": "ys2L1JD9yk/yVqC7QA+G0K31mIYE+LnLL1YcGwqrfgAz0a1UfCXkglfDsoQvLaqeTlGGV3hjMMNqgGxtn8wiQw==",
+      "type": "package",
+      "path": "xamarin.androidx.media2.widget/1.2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.media2.media2-widget.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Media2.Widget.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Media2.Widget.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Media2.Widget.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Media2.Widget.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Widget.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Widget.pdb",
+        "lib/monoandroid90/Xamarin.AndroidX.Media2.Widget.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Widget.aar",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Widget.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Widget.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Media2.Widget.xml",
+        "xamarin.androidx.media2.widget.1.2.0.2.nupkg.sha512",
+        "xamarin.androidx.media2.widget.nuspec"
+      ]
+    },
     "Xamarin.AndroidX.Migration/1.0.8": {
       "sha512": "bmcoaZ0Iw4ye2VpnRl6CObw3qKZT+6RzkyHjJVaeeNOupvFGyirWUq79HdVvSWyW6xSrqTBlprmUxtQkUR4kpg==",
       "type": "package",
@@ -3404,6 +3589,29 @@
         "proguard/proguard.txt",
         "xamarin.androidx.navigation.ui.2.3.5.1.nupkg.sha512",
         "xamarin.androidx.navigation.ui.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Palette/1.0.0.10": {
+      "sha512": "9heg2m40mwCUrEE+EBQuy/4STb5ftF+itPQ8NXbbw8NriCool14Hc1NXYLHG1QdoBUb1QgySTsozSwIlWEsouA==",
+      "type": "package",
+      "path": "xamarin.androidx.palette/1.0.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.palette.palette.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Palette.targets",
+        "build/net6.0-android31.0/Xamarin.AndroidX.Palette.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Palette.targets",
+        "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Palette.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Palette.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Palette.pdb",
+        "lib/monoandroid90/Xamarin.AndroidX.Palette.xml",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Palette.dll",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Palette.pdb",
+        "lib/net6.0-android31.0/Xamarin.AndroidX.Palette.xml",
+        "xamarin.androidx.palette.1.0.0.10.nupkg.sha512",
+        "xamarin.androidx.palette.nuspec"
       ]
     },
     "Xamarin.AndroidX.Preference/1.1.1.9": {
@@ -4617,6 +4825,7 @@
     "MonoAndroid,Version=v11.0": [
       "Com.OneSignal.Android >= 1.0.0",
       "Com.OneSignal.Core >= 1.0.0",
+      "Xamarin.AndroidX.Media2.Widget >= 1.2.0.2",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
       "example >= 1.0.0"
@@ -4665,6 +4874,10 @@
     "frameworks": {
       "monoandroid11.0": {
         "dependencies": {
+          "Xamarin.AndroidX.Media2.Widget": {
+            "target": "Package",
+            "version": "[1.2.0.2, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

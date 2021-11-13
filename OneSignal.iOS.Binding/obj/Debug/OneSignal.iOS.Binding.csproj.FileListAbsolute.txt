@@ -1,4 +1,3 @@
-/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.resources.stamp
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.dll
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.pdb
 /Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/obj/Debug/_ProcessedBundleResourcesPath.items

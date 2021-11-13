@@ -44,3 +44,13 @@ delegate bool _JniMarshal_PPLLZ_Z (IntPtr jnienv, IntPtr klass, IntPtr p0, IntPt
 delegate IntPtr _JniMarshal_PPLZ_L (IntPtr jnienv, IntPtr klass, IntPtr p0, bool p1);
 delegate bool _JniMarshal_PPLZ_Z (IntPtr jnienv, IntPtr klass, IntPtr p0, bool p1);
 delegate void _JniMarshal_PPZ_V (IntPtr jnienv, IntPtr klass, bool p0);
+#if !NET
+namespace System.Runtime.Versioning {
+    [System.Diagnostics.Conditional("NEVER")]
+    [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Constructor | AttributeTargets.Event | AttributeTargets.Method | AttributeTargets.Module | AttributeTargets.Property | AttributeTargets.Struct, AllowMultiple = true, Inherited = false)]
+    internal sealed class SupportedOSPlatformAttribute : Attribute {
+        public SupportedOSPlatformAttribute (string platformName) { }
+    }
+}
+#endif
+

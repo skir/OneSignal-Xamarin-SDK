@@ -121,7 +121,7 @@ namespace Com.OneSignal.Core {
         public abstract LogType AlertLevel { get; set; }
 
         /// <summary>
-        /// Provides privacy consent. OneSignal Unity SDK will not initialize until this is true.
+        /// Provides privacy consent. OneSignal Xamarin SDK will not initialize until this is true.
         /// </summary>
         public abstract bool PrivacyConsent { get; set; }
 

@@ -1,3 +1,4 @@
+Com.OneSignal.Android.dll
 FormsViewGroup.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll
@@ -35,10 +36,14 @@ Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll
 Xamarin.AndroidX.Loader.dll
 Xamarin.AndroidX.LocalBroadcastManager.dll
 Xamarin.AndroidX.Media.dll
+Xamarin.AndroidX.Media2.Common.dll
+Xamarin.AndroidX.Media2.Session.dll
+Xamarin.AndroidX.Media2.Widget.dll
 Xamarin.AndroidX.MultiDex.dll
 Xamarin.AndroidX.Navigation.Common.dll
 Xamarin.AndroidX.Navigation.Runtime.dll
 Xamarin.AndroidX.Navigation.UI.dll
+Xamarin.AndroidX.Palette.dll
 Xamarin.AndroidX.Preference.dll
 Xamarin.AndroidX.Print.dll
 Xamarin.AndroidX.RecyclerView.dll
@@ -84,6 +89,7 @@ Xamarin.GooglePlayServices.Stats.dll
 Xamarin.GooglePlayServices.Tasks.dll
 Xamarin.Jetbrains.Annotations.dll
 Xamarin.Kotlin.StdLib.dll
+OneSignal.Android.Binding.dll
 androidx.versionedparcelable.versionedparcelable.aar
 androidx.arch.core.core-runtime.aar
 androidx.lifecycle.lifecycle-runtime.aar
@@ -136,3 +142,7 @@ androidx.sqlite.sqlite-framework.aar
 androidx.room.room-runtime.aar
 androidx.lifecycle.lifecycle-service.aar
 androidx.work.work-runtime.aar
+androidx.palette.palette.aar
+androidx.media2.media2-common.aar
+androidx.media2.media2-session.aar
+androidx.media2.media2-widget.aar

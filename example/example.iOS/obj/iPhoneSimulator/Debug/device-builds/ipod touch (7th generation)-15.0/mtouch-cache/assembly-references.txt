@@ -34,4 +34,4 @@
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.2.0.1/lib/mono/Xamarin.iOS/Facades/System.Dynamic.Runtime.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.2.0.1/lib/mono/Xamarin.iOS/Facades/System.Threading.dll
 /Library/Frameworks/Xamarin.iOS.framework/Versions/15.2.0.1/lib/mono/Xamarin.iOS/Facades/System.Runtime.Extensions.dll
-/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/Com.OneSignal.iOS/bin/Debug/OneSignal.iOS.Binding.dll
+/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/bin/Debug/OneSignal.iOS.Binding.dll

@@ -178,8 +178,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
           "bin/placeholder/example.dll": {}
@@ -376,8 +376,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
           "bin/placeholder/example.dll": {}
@@ -574,8 +574,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
           "bin/placeholder/example.dll": {}
@@ -772,8 +772,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.6.1",
-          "Xamarin.Forms": "5.0.0.2012"
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196"
         },
         "compile": {
           "bin/placeholder/example.dll": {}
@@ -1125,6 +1125,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "Com.OneSignal.Core >= 1.0.0",
       "Com.OneSignal.iOS >= 1.0.0",
+      "OneSignal.iOS.Binding >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
       "example >= 1.0.0"
@@ -1165,6 +1166,9 @@
             },
             "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/example.csproj": {
               "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example/example.csproj"
+            },
+            "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/OneSignal.iOS.Binding.csproj": {
+              "projectPath": "/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/OneSignal.iOS.Binding/OneSignal.iOS.Binding.csproj"
             }
           }
         }

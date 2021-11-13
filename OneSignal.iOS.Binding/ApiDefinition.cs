@@ -624,7 +624,7 @@ namespace Com.OneSignal.iOS
 
 	// @interface OneSignal : NSObject
 	[BaseType(typeof(NSObject))]
-	interface OneSignalNative
+	interface OneSignal
 	{
 		// +(NSString *)appId;
 		// +(void)setAppId:(NSString * _Nonnull)newAppId;

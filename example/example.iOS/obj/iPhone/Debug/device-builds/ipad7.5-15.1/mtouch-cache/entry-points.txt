@@ -1,0 +1,124 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/mscorlib.dll
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_OneSignal
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSDeviceState
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSEmailSubscriptionState
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSEmailSubscriptionStateChanges
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSInAppMessage
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSInAppMessageAction
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSInAppMessageOutcome
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSInAppMessageTag
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSNotification
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSNotificationAction
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSNotificationOpenedResult
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSOutcomeEvent
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSPermissionState
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSPermissionStateChanges
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSSMSSubscriptionState
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSSMSSubscriptionStateChanges
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSSubscriptionState
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+ObjectiveCClass=OBJC_CLASS_$_OSSubscriptionStateChanges
+	/Users/tanay/Desktop/Xamarin SDK/OneSignal-Xamarin-SDK/example/example.iOS/obj/iPhone/Debug/device-builds/ipad7.5-15.1/mtouch-cache/1-Link/OneSignal.iOS.Binding.dll
+Function=mono_pmip
